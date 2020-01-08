@@ -111,6 +111,8 @@
 
   <build>
     <sourceDirectory>src/main/scala</sourceDirectory>
+        <pluginManagement>
+    
     <plugins>
       <plugin>
         <groupId>net.alchim31.maven</groupId>
@@ -168,6 +170,7 @@
         </executions>
       </plugin>
     </plugins>
+     </pluginManagement>
   </build>
 </project>
 
